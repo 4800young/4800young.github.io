@@ -1,0 +1,101 @@
+body {
+	background-image: linear-gradient(to bottom, #888888, #222222);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-size: x-large;
+}
+header {
+	background-color: #D7CCC8;
+	color: #000000;
+	background-image: url(logo.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	line-height: 400%;
+	text-indent: 1em;
+	text-align: center;
+	font-size: x-large;
+}
+nav {
+	background-color: #FAFAFA;
+	text-align: left;
+	font-size: x-large;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+h2 {
+	background-color: #FAFAFA;
+	color: #000000;
+	font-size: large;
+	margin-top: 0px;
+	text-align:center;
+	margin-bottom: 0px;
+}
+dt {
+	color: #002171;
+}
+h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+h2 {
+	margin-top: 0;
+}
+footer {
+	margin-top: 75px;
+	text-align: center;
+	font-size: small;
+}
+#model {
+	float: left;
+	margin: 10px 0px 50px 0px;
+	padding-right: 50px;
+}
+table {
+	width: 75%;
+	margin: auto;
+	border: 2px solid #FAFAFA;
+	border-collapse: collapse;
+}
+tr:nth-of-type(even) {
+	background-color: #D7CCC8;
+}
+td, th {
+	border: 2px solid #FAFAFA;
+	padding: 0.5em;
+}
+td {
+	text-align: center;
+}
+.text {
+	color: #000000;
+}
+th {
+	font-size: xx-large;
+}
+nav a:visited {
+	color: #000000;
+}
+
+nav a:hover {
+	color: #768fdf;
+	transition: color 2s linear;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 150px;
+	padding-right: 10px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"]{
+	
+	margin-left: 160px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
